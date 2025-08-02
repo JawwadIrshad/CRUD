@@ -31,6 +31,7 @@ class TodoUpdate(BaseModel):
     description: Optional[str] = None
     status: Optional[str] = None
 
+
 class TodoOut(TodoCreate):
     id: int
     class Config:

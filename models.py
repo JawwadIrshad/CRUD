@@ -10,7 +10,6 @@
 #     price = Column(Float, nullable=False)
 
 
-
 from sqlalchemy import Column, Integer, String
 from db2 import Base
 
