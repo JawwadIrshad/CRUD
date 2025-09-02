@@ -14,10 +14,25 @@ This project is a simple FastAPI application that demonstrates CRUD (Create, Rea
 - **SQLAlchemy**
 - **Pydantic**
 
- **Install the project dependencies**:
+---
 
-    pip install fastapi,uvicorn
-    ```
+## 🛠️ Installation
+
+1. Clone this repository:
+
+```bash
+
+
+cd Math question solver
+```
+
+2. Create a virtual environment (optional but recommended):
+
+```bash
+python -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
+```
 
 ## Usage 🚀
 1. Start the FastAPI application:
