@@ -19,7 +19,7 @@ This project is a simple FastAPI application that demonstrates CRUD (Create, Rea
 ## 🛠️ Installation
 
 1. Clone this repository:
-
+git clone https://github.com/JawwadIrshad/CRUD.git
 ```bash
 
 
