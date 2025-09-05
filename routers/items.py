@@ -45,4 +45,4 @@ def delete_todo(todo_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Todo not found")
     db.delete(db_todo)
     db.commit()
-    return {"detail": "Todo deleted"}
+    return {"detail": "Todo is deleted sucessfully"}
