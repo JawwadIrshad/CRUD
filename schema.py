@@ -1,4 +1,4 @@
-#schema.py
+#schema.py file
 from pydantic import BaseModel
 from typing import Optional
 
