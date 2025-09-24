@@ -1,4 +1,4 @@
-# models.py 
+# models.py file
 from sqlalchemy import Column, Integer, String
 from db2 import Base
 
