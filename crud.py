@@ -4,7 +4,6 @@ from db2 import Base, engine
 from routers import items
 
 Base.metadata.create_all(bind=engine)
-
 app = FastAPI()
 app.include_router(items.router, prefix="/todos", tags=["Todos"])
 @app.get("/")
